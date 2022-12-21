@@ -80,9 +80,9 @@ axios.post('https://magneto.api.halodoc.com/api/v1/users/authentication/otp/requ
     //   }
 
     axios
-      .get(`https://simsimi.info/api/?text=${body}&lc=id`)
+      .get(`https://api.akuari.my.id/simi/simi?query=${body}`)
         .then((data) =>
-        reply(`*🤖 : ${JSON.parse(JSON.stringify(data.data)).message}*\n\nTG : @RasiTechChannel1`)
+        reply(`*🤖 : ${JSON.parse(JSON.stringify(data.data)).respon}*\n\nTG : @RasiTechChannel1`)
       );
     //   const simi = fetchJson();
 
